@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Buoi6.Models.Product>
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Danh sách sản phẩm</h1>
+
+<!-- Dropdown để chọn danh mục -->
+<form asp-action="ProductsByCategory" method="get">
+    <label>Chọn danh mục:</label>
+    <select name="categoryId" onchange="this.form.submit()">
+        <option value="">Tất cả</option>
+        @foreach (var category in ViewBag.Categories)
+        {
+            <select value="@category.Id" @(ViewBag.CategoryId == category.Id ? "selected" : "")>@category.Name</select>
+        }
+    </select>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Hình ảnh</th>
+            <th>Chi tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" alt="@item.Name" style="width: 100px;" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="ProductDetails" asp-route-id="@item.Id">Xem chi tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
