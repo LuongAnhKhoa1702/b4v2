@@ -2,6 +2,7 @@
 using Buoi6.Models;
 using Buoi6.Repository;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Buoi6.Controllers
 {
@@ -31,13 +32,21 @@ namespace Buoi6.Controllers
         }
 
         // Hiển thị sản phẩm theo danh mục
-        public async Task<IActionResult> ProductsByCategory(int categoryId)
+        public async Task<IActionResult> ProductsByCategory(int? categoryId)
         {
             var products = await _productRepository.GetAllAsync();
-            var filteredProducts = products.Where(p => p.CategoryId == categoryId).ToList();
             var categories = await _categoryRepository.GetAllAsync(); // Lấy danh sách danh mục
             ViewBag.Categories = categories; // Gán vào ViewBag
             ViewBag.CategoryId = categoryId;
+
+            // Nếu categoryId rỗng hoặc 0, hiển thị tất cả sản phẩm
+            if (!categoryId.HasValue || categoryId == 0)
+            {
+                return View("Products", products);
+            }
+
+            // Lọc sản phẩm theo danh mục
+            var filteredProducts = products.Where(p => p.CategoryId == categoryId).ToList();
             return View("Products", filteredProducts);
         }
 

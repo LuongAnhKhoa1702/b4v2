@@ -4,45 +4,54 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Danh sách sản phẩm</h1>
+<h1 class="mb-4">Danh sách sản phẩm</h1>
 
 <!-- Dropdown để chọn danh mục -->
-<form asp-action="ProductsByCategory" method="get">
-    <label>Chọn danh mục:</label>
-    <select name="categoryId" onchange="this.form.submit()">
-        <option value="">Tất cả</option>
-        @foreach (var category in ViewBag.Categories)
-        {
-            <select value="@category.Id" @(ViewBag.CategoryId == category.Id ? "selected" : "")>@category.Name</select>
-        }
-    </select>
-</form>
+<div class="mb-4">
+    <form asp-action="ProductsByCategory" method="get">
+        <label for="categoryId" class="form-label">Chọn danh mục:</label>
+        <select name="categoryId" id="categoryId" class="form-select w-auto" onchange="this.form.submit()">
+            <option value="">Tất cả</option>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <option value="@category.Id" selected="@(ViewBag.CategoryId == category.Id ? "selected" : null)">@category.Name</option>
+            }
+        </select>
+    </form>
+</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Tên sản phẩm</th>
-            <th>Giá</th>
-            <th>Hình ảnh</th>
-            <th>Chi tiết</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Price</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.ImageUrl))
-                    {
-                        <img src="@item.ImageUrl" alt="@item.Name" style="width: 100px;" />
+<!-- Grid layout cho danh sách sản phẩm -->
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                @if (!string.IsNullOrEmpty(item.ImageUrl))
+                {
+                    <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;" />
+                }
+                else
+                {
+                    <img src="~/images/placeholder.jpg" class="card-img-top" alt="Placeholder" style="height: 200px; object-fit: cover;" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text highlight-price">@item.Price.ToString("C")</p>
+                    @{
+                        var categoryName = "Không có";
+                        foreach (var cat in ViewBag.Categories)
+                        {
+                            if (cat.Id == item.CategoryId)
+                            {
+                                categoryName = cat.Name;
+                                break;
+                            }
+                        }
                     }
-                </td>
-                <td>
-                    <a asp-action="ProductDetails" asp-route-id="@item.Id">Xem chi tiết</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                    <p class="card-text">Thể loại: <span class="highlight-category">@categoryName</span></p>
+                    <a asp-action="ProductDetails" asp-route-id="@item.Id" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
