@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Views\\Home\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ProductDetails.cshtml",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Views\\Home\\ProductDetails.cshtml",
-              "RelativeToolTip": "Views\\Home\\ProductDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T11:00:20.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwEEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T10:48:35.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAwwOAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-04T09:58:08.066Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -81,15 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T11:28:19.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T10:24:48.911Z",
+              "WhenOpened": "2025-06-04T11:27:34.927Z",
               "EditorCaption": ""
             }
           ]

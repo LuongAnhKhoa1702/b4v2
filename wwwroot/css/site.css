@@ -43,6 +43,7 @@ main {
     padding: 2rem;
     margin-top: 1rem;
     min-height: calc(100vh - 200px); /* Đảm bảo main chiếm không gian tối thiểu */
+    margin-bottom: 100px;
 }
 
 /* Chân trang (Footer) */
@@ -51,6 +52,10 @@ main {
     color: #fff;
     padding: 1.5rem 0;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
     .footer a {
