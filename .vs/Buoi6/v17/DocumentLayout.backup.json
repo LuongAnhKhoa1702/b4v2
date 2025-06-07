@@ -1,13 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\",
+  "WorkspaceRootPath": "C:\\Users\\luong\\Downloads\\b4_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\migrations\\20250529070353_create_table_product_and_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:migrations\\20250529070353_create_table_product_and_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\migrations\\20250530021742_them cac bang indentity core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:migrations\\20250530021742_them cac bang indentity core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\migrations\\20250529070613_them du lieu mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:migrations\\20250529070613_them du lieu mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|d:\\workspace\\csharp\\hutech\\laptrinhweb\\lab06\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|c:\\users\\luong\\downloads\\b4_v2\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8142DECA-5E23-4A6D-8F33-1E2F7C580D13}|Buoi6.csproj|solutionrelative:areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -18,45 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250529070353_Create_Table_Product_and_Category.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250529070353_Create_Table_Product_and_Category.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250529070353_Create_Table_Product_and_Category.cs",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250529070353_Create_Table_Product_and_Category.cs",
+              "RelativeToolTip": "Migrations\\20250529070353_Create_Table_Product_and_Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:10:15.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAwwH0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-04T11:28:19.252Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "20250530021742_Them cac bang Indentity Core.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250530021742_Them cac bang Indentity Core.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250530021742_Them cac bang Indentity Core.cs",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250530021742_Them cac bang Indentity Core.cs",
+              "RelativeToolTip": "Migrations\\20250530021742_Them cac bang Indentity Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:10:13.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250529070613_Them du lieu mau.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250529070613_Them du lieu mau.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250529070613_Them du lieu mau.cs",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Migrations\\20250529070613_Them du lieu mau.cs",
+              "RelativeToolTip": "Migrations\\20250529070613_Them du lieu mau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:10:09.343Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:09:26.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T02:09:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:09:07.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:33:15.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T11:28:19.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\Downloads\\b4_v2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\Workspace\\CSharp\\Hutech\\LapTrinhWeb\\Lab06\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\luong\\Downloads\\b4_v2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T11:27:34.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T11:27:34.927Z"
             }
           ]
         }
